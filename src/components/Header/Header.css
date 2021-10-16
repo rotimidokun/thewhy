@@ -1,0 +1,86 @@
+.top-address-container {
+    height: 40px;
+    width: auto;
+    background-color: #296CB3;
+    display: flex;
+    padding: 0rem 0rem 0rem 8rem;
+    align-items: center;
+}
+
+.call, .email {
+    display: flex;
+    align-items: center;
+}
+
+.call p, .email p {
+    padding-right: 10px;
+    color: #f3cd2e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.call span {
+    padding-right: 20px; 
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.vertical-line {
+    transform: rotate(90deg);
+    object-fit: cover;
+    height:20px;
+    width: 14px; 
+    filter: invert(90%); 
+}
+
+.menu-container {
+    width: auto;
+    display: flex;
+    box-shadow: 0px 2px 3px rgb(21,33,42, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem 1rem 8rem;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu-item {
+    text-decoration: none;
+    padding-right: 5rem;
+    font-size: 14px;
+    color: rgb(79, 78, 78);
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    color: #296CB3;
+}
